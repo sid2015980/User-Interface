@@ -3,64 +3,250 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-    height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Titillium Web", sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Bangers', cursive;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Bangers", cursive;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
 }
 
 /* Your code starts here! */
+
+* body {
+  line-height: 1.5;
+  font-size: 25px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.navLinks {
+  display: inline-block;
+  width: 61%;
+  margin-right: 5%;
+  margin-bottom: 40px;
+}
+
+.navLinks #services {
+  margin-right: 100px;
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  margin-right: 90;
+}
+
+.sideOne button {
+  display: block;
+  width: 90%;
+  margin: 1%;
+  margin-top: -10px;
+}
+
+.sideOne * {
+  margin-top: -60px;
+}
+
+.sideOne h2 {
+  font-size: 60px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-left: 500px;
+  margin-bottom: 0 auto;
+  width: 10%;
+}
+
+.sideOne .circleImage {
+  display: inline-block;
+  width: 25%;
+  height: 5%;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+
+.centerContent .topLine {
+  border-top: 1px solid black;
+}
+
+.centerContent .bottomLine {
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+.centerContent .one {
+  display: inline-block;
+  width: 49%;
+  margin: 2% 0;
+}
+.centerContent .two {
+  display: inline-block;
+  width: 50%;
+  margin: 2% 0;
+}
+
+.centerContent .three {
+  display: inline-block;
+  width: 33%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.centerContent .four {
+  display: inline-block;
+  width: 33%;
+  margin: 0 auto;
+}
+.centerContent .five {
+  display: inline-block;
+  width: 33%;
+  margin: 0 auto;
+}
+.centerContent .middle-img {
+  display: block;
+  margin-bottom: 50px;
+  margin-top: 15x;
+  width: 100%;
+}
+
+footer h4 {
+  margin-top: 50px;
+}
